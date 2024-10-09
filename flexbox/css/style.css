@@ -1,0 +1,91 @@
+.flexboxcontainer{
+    display: flex;
+}
+.block1, .block2, .block3{
+    height: 200px;
+    width: 200px;
+}
+
+.block1{
+
+    background: red;
+}
+
+
+
+.block2{
+
+    background: blue;
+}
+
+.block3{
+
+    background: purple;
+}
+
+#flexboxrow-reverse{
+    flex-direction: row-reverse;
+}
+
+#flexboxcolumn{
+    flex-direction: column;
+}
+
+#flexboxrow-reverse{
+    flex-direction: column-reverse;
+}
+
+#flexboxjustify{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    /*border: 3px solid black;*/
+    border: 10px dotted rgba(100,100,100,0.5);
+    justify-content: center;
+}
+
+#flexboxjustifyend{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    /*border: 3px solid black;*/
+    border: 10px dotted rgba(100,100,100,0.5);
+    justify-content: end;
+}
+
+#flexboxjustifystart{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    /*border: 3px solid black;*/
+    border: 10px dotted rgba(100,100,100,0.5);
+    justify-content: start;
+}
+
+#flexboxjustifyspacebetween{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    /*border: 3px solid black;*/
+    border: 10px dotted rgba(100,100,100,0.5);
+    justify-content: space-between;
+}
+
+#flexboxjustifyspacearound{
+width: 100%;
+background: yellow;
+height: 300px;
+/*border: 3px solid black;*/
+border: 10px dotted rgba(100,100,100,0.5);
+justify-content: space-around;
+}
+
+#alignitemsstart{
+    width: 100%;
+    background: yellow;
+    height: 300px;
+    /*border: 3px solid black;*/
+    border: 10px dotted rgba(100,100,100,0.5);
+    align-items: flex-start;
+    /*align-items: center;*/
+}
